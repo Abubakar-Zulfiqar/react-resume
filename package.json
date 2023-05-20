@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Haziq Rasool portfolio website",
   "main": "server.js",
-  "devDependencies": {},
   "author": "Haziq Rasool",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
+    "colors": "^1.4.0",
+    "cyan": "^0.0.0",
     "express": "^4.18.1"
   },
   "scripts": {
