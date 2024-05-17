@@ -1,5 +1,6 @@
 import express from "express";
 import path from "path";
+import chalk from "chalk";
 
 const app = express();
 
@@ -20,7 +21,5 @@ if (process.env.NODE_ENV === "production") {
 const port = process.env.PORT || 5000;
 const mode = process.env.NODE_ENV;
 app.listen(port, "0.0.0.0", () => {
-  console.log(
-    `Application is running at port no ${port} in ${mode} mode`.inverse.cyan
-  );
+  console.log(chalk.inverse.cyan(`Application is running at port no ${port} in ${mode} mode`));
 });
