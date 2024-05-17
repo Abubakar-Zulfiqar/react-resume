@@ -1,17 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
-class Header extends Component {
-  render() {
-    if (!this.props.data) return null;
+const Header = ({ data }) => {
+  if (!data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
-    const name = this.props.data.name;
-    const description = this.props.data.description;
+  const { github, name, description } = data;
 
-    return (
+  return (
       <header id="home">
         <ParticlesBg type="circle" bg={true} />
 
@@ -68,8 +64,8 @@ class Header extends Component {
             <Fade bottom duration={2000}>
               <ul className="social">
                 <a
-                  href="#portfolio"
-                  className="button btn smoothscroll project-btn"
+                    href="#portfolio"
+                    className="button btn smoothscroll project-btn"
                 >
                   <i className="fa fa-book"></i>Projects
                 </a>
@@ -87,8 +83,7 @@ class Header extends Component {
           </a>
         </p>
       </header>
-    );
-  }
-}
+  );
+};
 
 export default Header;

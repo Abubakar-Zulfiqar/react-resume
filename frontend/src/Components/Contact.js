@@ -1,25 +1,24 @@
-import React, { Component } from "react";
+import React from "react";
 import $ from "jquery";
 import { Fade, Slide } from "react-reveal";
 import emailjs from "@emailjs/browser";
 
-class Contact extends Component {
-  render() {
-    if (!this.props.data) return null;
+const Contact = ({ data }) => {
+  if (!data) return null;
 
-    const handleEmail = (e) => {
-      e.preventDefault();
-      console.log("Email handler was called");
-      $("#image-loader").fadeIn();
-      emailjs
+  const handleEmail = (e) => {
+    e.preventDefault();
+    console.log("Email handler was called");
+    $("#image-loader").fadeIn();
+    emailjs
         .sendForm(
-          "service_y8pcfnb",
-          "template_uxn9dso",
-          e.target,
-          "NJAm9yc0oIvqYwp8X"
+            "service_y8pcfnb",
+            "template_uxn9dso",
+            e.target,
+            "NJAm9yc0oIvqYwp8X"
         )
         .then((res) => {
-          console.log("Email sent successflly");
+          console.log("Email sent successfully");
           $("#image-loader").fadeOut();
           $("#message-warning").hide();
           $("#contactForm").fadeOut();
@@ -31,17 +30,17 @@ class Contact extends Component {
           $("#message-warning").html("Email sending failed");
           $("#message-warning").fadeIn();
         });
-    };
+  };
 
-    const name = this.props.data.name;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const message = this.props.data.contactmessage;
+  const name = data.name;
+  const street = data.address.street;
+  const city = data.address.city;
+  const state = data.address.state;
+  const zip = data.address.zip;
+  const phone = data.phone;
+  const message = data.contactmessage;
 
-    return (
+  return (
       <section id="contact">
         <Fade bottom duration={1000}>
           <div className="row section-head">
@@ -61,10 +60,10 @@ class Contact extends Component {
           <Slide left duration={1000}>
             <div className="eight columns">
               <form
-                method="post"
-                id="contactForm"
-                name="contactForm"
-                onSubmit={handleEmail}
+                  method="post"
+                  id="contactForm"
+                  name="contactForm"
+                  onSubmit={handleEmail}
               >
                 <fieldset>
                   <div>
@@ -72,11 +71,11 @@ class Contact extends Component {
                       Name <span className="required">*</span>
                     </label>
                     <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactName"
-                      name="contactName"
+                        type="text"
+                        defaultValue=""
+                        size="35"
+                        id="contactName"
+                        name="contactName"
                     />
                   </div>
 
@@ -85,11 +84,11 @@ class Contact extends Component {
                       Email <span className="required">*</span>
                     </label>
                     <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactEmail"
-                      name="contactEmail"
+                        type="text"
+                        defaultValue=""
+                        size="35"
+                        id="contactEmail"
+                        name="contactEmail"
                     />
                   </div>
 
@@ -98,10 +97,10 @@ class Contact extends Component {
                       Message <span className="required">*</span>
                     </label>
                     <textarea
-                      cols="50"
-                      rows="15"
-                      id="contactMessage"
-                      name="contactMessage"
+                        cols="50"
+                        rows="15"
+                        id="contactMessage"
+                        name="contactMessage"
                     ></textarea>
                   </div>
 
@@ -110,8 +109,8 @@ class Contact extends Component {
                       Submit
                     </button>
                     <span id="image-loader">
-                      <img alt="" src="images/loader.gif" />
-                    </span>
+                    <img alt="" src="images/loader.gif" />
+                  </span>
                   </div>
                 </fieldset>
               </form>
@@ -142,21 +141,21 @@ class Contact extends Component {
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
-                    <span>
-                      Every great developer you know got there by solving
-                      problems they were unqualified to solve until they
-                      actually did it.
-                      <a href="./">https://twitter.com/</a>
-                    </span>
+                  <span>
+                    Every great developer you know got there by solving
+                    problems they were unqualified to solve until they
+                    actually did it.
+                    <a href="./">https://twitter.com/</a>
+                  </span>
                     <b>
                       <a href="./">2 Days Ago</a>
                     </b>
                   </li>
                   <li>
-                    <span>
-                      "Programmer: A machine that turns coffee into code."
-                      <a href="./">https://twitter.com/</a>
-                    </span>
+                  <span>
+                    "Programmer: A machine that turns coffee into code."
+                    <a href="./">https://twitter.com/</a>
+                  </span>
                     <b>
                       <a href="./">3 Days Ago</a>
                     </b>
@@ -167,8 +166,7 @@ class Contact extends Component {
           </Slide>
         </div>
       </section>
-    );
-  }
-}
+  );
+};
 
 export default Contact;

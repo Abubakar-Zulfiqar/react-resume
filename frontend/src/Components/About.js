@@ -1,30 +1,29 @@
-import React, { Component } from "react";
+import React from "react";
 import Fade from "react-reveal";
 
-class About extends Component {
-  render() {
-    if (!this.props.data) return null;
+const About = ({ data }) => {
+  if (!data) return null;
 
-    const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
-    const bio = this.props.data.bio;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
+  const name = data.name;
+  const profilepic = "images/" + data.image;
+  const bio = data.bio;
+  const street = data.address.street;
+  const city = data.address.city;
+  const state = data.address.state;
+  const zip = data.address.zip;
+  const phone = data.phone;
+  const email = data.email;
+  const resumeDownload = data.resumedownload;
 
-    return (
+  return (
       <section id="about">
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">
               <img
-                className="profile-pic"
-                src={profilepic}
-                alt="Haziq Rasool Profile Pic"
+                  className="profile-pic"
+                  src={profilepic}
+                  alt="Haziq Rasool Profile Pic"
               />
             </div>
             <div className="nine columns main-col">
@@ -38,10 +37,10 @@ class About extends Component {
                     <span>{name}</span>
                     <br />
                     <span>
-                      {street}
+                    {street}
                       <br />
                       {city} {state}, {zip}
-                    </span>
+                  </span>
                     <br />
                     <span>{phone}</span>
                     <br />
@@ -60,8 +59,7 @@ class About extends Component {
           </div>
         </Fade>
       </section>
-    );
-  }
+  );
 }
 
 export default About;
