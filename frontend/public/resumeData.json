@@ -1,46 +1,36 @@
 {
   "main": {
-    "name": "Hi there, I'm Haziq",
-    "description": "I am a designer who codes. I use react.js and node.js to develop amazing websites. I am a certified MERN stack developer, and have sufficient experience in building both front-end and back-end sites",
+    "name": "Hi there, I'm Abubakar",
+    "description": "A passionate and dedicated front-end developer with over two years of professional experience in crafting dynamic and responsive web applications. My expertise lies in React.js and Next.js, and I have a strong proficiency in Vue.js and Nuxt.js as well.\n\nMy journey in web development has been driven by a love for creating seamless user experiences and efficient, maintainable code. I thrive in environments that challenge me to continually learn and adapt, and I am always eager to explore new technologies and methodologies.",
     "image": "profilepic.jpg",
-    "bio": "I am a learner at heart, with an entrepreneurial spirit, and a passion for coding. Born in a small city in Gojra and currently studing copmuter science in Lahaore Pakistan. I started my journey in practical world by working as a freelance graphic designer in my college days, after a year I directed my focus to coding and developing and learned MERN stack web development from E-vantures solutions Lahore. I have completed several intersting projects during my experience working  with teams as well as independently.",
+    "bio": "In my journey through the ever-evolving landscape of web development, I've honed my skills in React.js and Next.js, sculpting seamless user interfaces that not only dazzle the eye but also elevate the user experience to new heights. Whether it's breathing life into intricate web applications or architecting robust solutions, I thrive on the challenges that each project brings. While React.js and Next.js are my forte, I'm no stranger to the Vue.js ecosystem, having delved into its depths and emerged with a deep appreciation for its elegance and flexibility. With hands-on experience in Vue.js and Nuxt.js, I've seamlessly transitioned between frameworks, adapting to the unique demands of each project with finesse.",
     "contactmessage": "For any queries or offers feel free to send an email or reach me on my social accounts.",
-    "email": "haziqrasool0@gmail.com",
-    "phone": "+92 323 9151 899",
-    "github": "https://github.com/HaziqSheikh",
-    "project": "https://github.com/nordicgiant2/react-nice-resume",
+    "email": "abubakarmian583@gmail.com",
+    "phone": "+92 342 4545 401",
+    "github": "https://github.com/Abubakar-Zulfiqar",
+    "project": "https://sasystems.solutions/",
     "address": {
-      "street": "Model City Block 1",
-      "city": "Fasailabad, ",
+      "street": "Lahore Press Club Housing Scheme.",
+      "city": "Lahore, ",
       "state": "Punjab",
-      "zip": "56000"
+      "zip": "54580"
     },
     "website": "http://www.haziqrasool.herokuapp.com",
-    "resumedownload": "https://drive.google.com/uc?export=download&id=149LnZ0TZogfk4O7nqsQoGPM2KEU8iEbO",
+    "resumedownload": "https://drive.google.com/uc?export=download&id=1kMvsje7nGvY0Qp8Y4XxLnMU_UGo9cbez",
     "social": [
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/people/Haziq-Sheikh/100007521962107/",
+        "url": "https://web.facebook.com/mian.abubakar.9469",
         "className": "fa fa-facebook"
       },
       {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/haziq-rasool-012b57224/",
+        "url": "https://www.linkedin.com/in/mian-abubakar-7a87b2220/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "github",
-        "url": "https://github.com/HaziqSheikh",
+        "url": "https://github.com/Abubakar-Zulfiqar",
         "className": "fa fa-github"
       }
     ]
@@ -49,16 +39,16 @@
     "skillmessage": "",
     "education": [
       {
-        "school": "PUCIT Lahore",
-        "degree": "Bchelors in Computer Sciences",
-        "graduated": "Started in 2021",
-        "description": "Currently studing in one of well known universities in field of computer sciences in Pakistan"
+        "school": "NCBA&E, East Canal Campus",
+        "degree": "Bachelors in Computer Sciences",
+        "graduated": "Aug 2023",
+        "description": "Completed my college with B+ grades."
       },
       {
-        "school": "The Standard Group Of Colleges, Gojra Campus",
-        "degree": "F.S.C pre-engineering",
-        "graduated": "August 2021",
-        "description": "Completed my college with A+ grades."
+        "school": "Punjab Group Of Colleges, Shalamar Campus",
+        "degree": "ICS",
+        "graduated": "August 2019",
+        "description": "Completed my college with B+ grades."
       },
       {
         "school": "EVS Lahore",
@@ -67,10 +57,112 @@
         "description": "Learned full stack web development using HTML5, CSS, advanced es6 Javascript, ReactJs, Node Js, Mongo DB and Express. Completed Different projects as a front-end as well as a back-end developer."
       }
     ],
-    "work": [],
+    "work": [
+      {
+        "company": "Devsinc",
+        "years": "Aug 2022 - Oct 2022",
+        "title": "Software Engineer Intern",
+        "detail": [
+          {
+            "description": "I have experience in creating and managing web applications utilizing the React.js framework and making a web application fully responsive."
+          },
+          {
+            "description": "Reduced code complexity by refactoring existing codebase to optimize performance and maintainability."
+          },
+          {
+            "description": "Designed and Developed Burger Builder App using React.js, Redux for State Management"
+          },
+          {
+            "description": "Wrote clear, clean code for various projects."
+          },
+          {
+            "description": "Partnered with team members to learn best practices in software design."
+          },
+          {
+            "description": "Developed an optimized a Bug reporting system using React.js, Context API, and Firebase."
+          },
+          {
+            "description": "Prioritized tasks and completed in order of importance."
+          }
+        ]
+      },
+      {
+        "company": "SA Systems",
+        "years": "Nov 2022 - Present",
+        "title": "Associate Software Engineer",
+        "detail": [
+          {
+            "description": "I build and maintain innovative and modern web applications using Laravel to build rest APIs for React.js project"
+          },
+          {
+            "description": "Designed, developed, and maintained Next/Laravel-based cross-platform applications using Next/Laravel frameworks"
+          },
+          {
+            "description": "Collaborated with cross-functional teams to develop, test, and deploy high-quality software solutions for clients."
+          },
+          {
+            "description": "Regularly engaged with clients in meetings to understand their business needs and identify growth opportunities"
+          },
+          {
+            "description": "Developed E-Commerce web app utilizing Next.js for Server-Side Rendering."
+          },
+          {
+            "description": "Contributed to the design and implementation of a RESTful API, leading to easier integration with other systems."
+          },
+          {
+            "description": "Developed a web application for a housing society to socialize their plots and installment plans utilizing the latest technologies"
+          },
+          {
+            "description": "Created a user-friendly interface for a Stond to increase their social presence"
+          },
+          {
+            "description": "Utilized Nuxt.js to design a user-friendly interface as a Frontend role in SA Universe with interactive features."
+          },
+          {
+            "description": "Participated in sprint planning sessions, estimating task complexity and prioritizing work items accordingly."
+          }
+        ]
+      }
+    ],
     "skills": [
       {
+        "name": "HTML",
+        "level": "90%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "100%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "80%"
+      },
+      {
+        "name": "TypeScript",
+        "level": "70%"
+      },
+      {
         "name": "ReactJs",
+        "level": "90%"
+      },
+      {
+        "name": "NextJs",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "80%"
+      },
+      {
+        "name": "NuxtJs",
+        "level": "70%"
+      },
+      {
+        "name": "React Redux",
         "level": "80%"
       },
       {
@@ -78,27 +170,19 @@
         "level": "70%"
       },
       {
-        "name": "CSS",
-        "level": "70%"
-      },
-      {
-        "name": "Bootstrap",
-        "level": "90%"
-      },
-      {
-        "name": "React Redux",
-        "level": "60%"
-      },
-      {
         "name": "Mongo DB",
         "level": "70%"
       },
       {
-        "name": "Adobe Illustrator",
-        "level": "80%"
+        "name": "PHP",
+        "level": "60%"
       },
       {
-        "name": "Adobe Photoshop",
+        "name": "Laravel",
+        "level": "60%"
+      },
+      {
+        "name": "MySQL",
         "level": "60%"
       }
     ]
@@ -106,22 +190,22 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Rrock's Bird Graphics",
-        "category": "A Graphic designing startup website",
+        "title": "SA Systems",
+        "category": "A website for software house which provide products demos and services.",
         "image": "01.png",
-        "url": "https://haziqsheikh.github.io/rocksbird/"
+        "url": "https://sasystems.solutions/"
       },
       {
-        "title": "Emotions Kart",
-        "category": "Full fledge E-commerce website",
+        "title": "SA Garden",
+        "category": "A website for housing society for marketing of their society.",
         "image": "02.png",
-        "url": "https://emotionskart.herokuapp.com/"
+        "url": "https://sagardens.net/"
       },
       {
-        "title": "Awesome portfolio",
-        "category": "Personal portfolio website",
+        "title": "BreeO",
+        "category": "Ecommerce Website",
         "image": "03.png",
-        "url": "https://hr-awesome-portfolio.netlify.app/"
+        "url": "https://breeo.sasystems.solutions/"
       }
     ]
   }
