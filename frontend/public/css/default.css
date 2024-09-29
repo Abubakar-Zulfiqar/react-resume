@@ -87,7 +87,9 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q {
+    quotes: "\&#8220;" "\&#8221;";
+}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -122,8 +124,8 @@ table {
 /* ------------------------------------------------------------------ */
 /* c. Default and Basic Styles
       Adapted from:
-      Skeleton CSS Framework - http://www.getskeleton.com/
-      Typeplate Typographic Starter Kit - http://typeplate.com/
+      Skeleton CSS Framework - https://www.getskeleton.com/
+      Typeplate Typographic Starter Kit - https://typeplate.com/
 /* ------------------------------------------------------------------ */
 
 /*  1. Basic  ------------------------------------------------------- */
@@ -772,7 +774,7 @@ properly.
 /* ------------------------------------------------------------------ */
 
 /*  1. Clearing
-    (http://nicolasgallagher.com/micro-clearfix-hack/
+    (https://nicolasgallagher.com/micro-clearfix-hack/
 --------------------------------------------------------------------- */
 
 .cf:before,

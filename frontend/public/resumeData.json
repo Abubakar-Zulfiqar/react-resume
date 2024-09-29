@@ -15,7 +15,7 @@
       "state": "Punjab",
       "zip": "54580"
     },
-    "website": "http://www.haziqrasool.herokuapp.com",
+    "website": "https://www.mianabubakar.com",
     "resumedownload": "https://drive.google.com/uc?export=download&id=1kMvsje7nGvY0Qp8Y4XxLnMU_UGo9cbez",
     "social": [
       {
@@ -206,6 +206,12 @@
         "category": "Ecommerce Website",
         "image": "03.png",
         "url": "https://breeo.sasystems.solutions/"
+      },
+      {
+        "title": "AirBookings",
+        "category": "A website for international clients offering flight, hotel, and ride booking services.",
+        "image": "04.png",
+        "url": "https://airbookings.ca//"
       }
     ]
   }
